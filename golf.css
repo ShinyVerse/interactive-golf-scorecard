@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+.score__header{
+  text-align: left;
+}
+
+.score--total,
+.player1__hole {
+  width: 20px;
+}

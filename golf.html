@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="golf.css">
+    <title>Golf</title>
+  </head>
+  <body>
+    <h3>2 Players Golf</h3>
+  <input class="input--p1"
+         placeholder="Player 1"></input>
+  <button class="score-input">Enter</button>
+  <input class="input--p2"
+         placeholder="Player 2"></input>
+  <button class="score-input">Enter</button>
+  <table border>
+    <tr>
+      <th class="score__header">Hole: </th>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th class="score__header">Par: </th>
+      <td>3</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th class="score__header" >Player 1: </th>
+      <td class="player1__hole"></td>
+      <td class="player1__hole"></td>
+      <td class="player1__hole"></td>
+      <td class="player1__hole"></td>
+      <th>TOTAL</th>
+      <td class="score--total"></td>
+    </tr>
+    <tr>
+      <th class="score__header">Player 2: </th>
+      <td class="player2__hole"></td>
+      <td class="player2__hole"></td>
+      <td class="player2__hole"></td>
+      <td class="player2__hole"></td>
+      <th>TOTAL</th>
+      <td class="score--total"></td>
+    </tr>
+  </table>
+  <script src="./golf.js"></script>
+  </body>
+</html>
