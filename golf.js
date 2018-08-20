@@ -8,7 +8,7 @@ var p1_index = 0;
 var p2_index = 0;
 
 function int_checker(value){
-  var regex_digits = /^\d{2}$/;
+  var regex_digits = /^\d+$/;
   return regex_digits.test(value);
 }
 
